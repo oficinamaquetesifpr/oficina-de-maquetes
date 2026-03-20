@@ -1,0 +1,67 @@
+Log for creating 3D model tile(s) for  V2_2_-51.33_-24.61 
+ 
+DEM_name = JAXA/ALOS/AW3D30/V2_2 
+trlat = -22.43513640499577 
+trlon = -47.94849296875001 
+bllat = -26.783700097540503 
+bllon = -54.70874687500002 
+printres = 0.4 
+ntilesx = 3 
+ntilesy = 3 
+tilewidth = 160.0 
+basethick = 1 
+zscale = 20.0 
+fileformat = STLb 
+no_bottom = False 
+unprojected = False 
+no_normals = True 
+
+process started: 12:15:33.747466 
+
+Region (lat/lon):
+   -22.43513640499577 -47.94849296875001 (top right)
+   -26.783700097540503 -54.70874687500002 (bottom left) 
+center at [-51.32861992187502, -24.60941825126814], UTM22S, EPSG:32722 
+lon/lat size in degrees: [6.760253906250007, 4.348563692544733] 
+Earth Engine raster: JAXA/ALOS/AW3D30/V2_2 
+ ALOS DSM: Global 30m [deprecated] 
+URL for geotiff is:  https://earthengine.googleapis.com/v1/projects/touchterrainstandalone2022/thumbnails/988dbee3c2edf156e6f219804ff5e4ef-4650e9d893fd5cae8f9e1bf7f160fb29:getPixels 
+ geotiff size: 1.2091140747070312 Mb 
+ cell size 570.4913275804591 m, upper left corner (x/y):  118091.70480915504 7519075.697510451 
+full (untiled) raster (height,width)  (854, 1221) float64 elev. min/max: -3.0 1659.0 
+cell size: 570.4913275804591 m  
+adjusted print res from the requested 0.4 mm to 0.3931203931203931 mm to ensure correct model dimensions 
+total model size in mm: 480.0 x 335.72481572481576 
+Cropping for nice fit of 3 (width) x 3 (height) tiles, removing: 0 columns, 2 rows 
+cropped (1221, 854) to (1221, 852) 
+ cropping changed physical size from 160.0 mm x 111.90827190827191 mm 
+ to 160.0 mm x 111.64619164619167 mm 
+map scale is 1 : 1451187.3145327931 
+Cells per tile (x/y) 407 x 284 
+using single-core only (multi-core is currently broken :( 
+
+3 x 3 tiles, tile size 160.00 x 111.65 mm
+ 
+tile 1 1 : height:  4.087127316463848 - 9.186400115980025 mm , file size: 11 Mb 
+tile 1 2 : height:  4.004436406201423 - 14.506182009529335 mm , file size: 11 Mb 
+tile 1 3 : height:  2.3230545641987916 - 14.98854565272681 mm , file size: 11 Mb 
+tile 2 1 : height:  4.528145504530112 - 17.2074184114352 mm , file size: 11 Mb 
+tile 2 2 : height:  5.272363696891932 - 19.012836618831468 mm , file size: 11 Mb 
+tile 2 3 : height:  7.766872823141738 - 20.11538208899713 mm , file size: 11 Mb 
+tile 3 1 : height:  6.071709162762036 - 14.63021837492297 mm , file size: 11 Mb 
+tile 3 2 : height:  1.0 - 23.905382142691586 mm , file size: 11 Mb 
+tile 3 3 : height:  1.0137818183770708 - 22.857963946034207 mm , file size: 11 Mb 
+
+total size for all tiles: 100.4 Mb 
+Error removing/opt/app-root/src/touchterrain/server/tmp/80045373374433.tmp [Errno 2] No such file or directory: '/opt/app-root/src/touchterrain/server/tmp/80045373374433.tmp'
+Error removing/opt/app-root/src/touchterrain/server/tmp/80045373374433.tmp [Errno 2] No such file or directory: '/opt/app-root/src/touchterrain/server/tmp/80045373374433.tmp'
+Error removing/opt/app-root/src/touchterrain/server/tmp/80045373374433.tmp [Errno 2] No such file or directory: '/opt/app-root/src/touchterrain/server/tmp/80045373374433.tmp'
+Error removing/opt/app-root/src/touchterrain/server/tmp/80045373374433.tmp [Errno 2] No such file or directory: '/opt/app-root/src/touchterrain/server/tmp/80045373374433.tmp'
+Error removing/opt/app-root/src/touchterrain/server/tmp/80045373374433.tmp [Errno 2] No such file or directory: '/opt/app-root/src/touchterrain/server/tmp/80045373374433.tmp'
+Error removing/opt/app-root/src/touchterrain/server/tmp/80045373374433.tmp [Errno 2] No such file or directory: '/opt/app-root/src/touchterrain/server/tmp/80045373374433.tmp'
+Error removing/opt/app-root/src/touchterrain/server/tmp/80045373374433.tmp [Errno 2] No such file or directory: '/opt/app-root/src/touchterrain/server/tmp/80045373374433.tmp'
+Error removing/opt/app-root/src/touchterrain/server/tmp/80045373374433.tmp [Errno 2] No such file or directory: '/opt/app-root/src/touchterrain/server/tmp/80045373374433.tmp'
+added full geotiff as V2_2_-51.33_-24.61.tif 
+added histogram of elevation values as V2_2_-51.33_-24.61_DEMandHistogram.png 
+
+processing finished: 12:16:05.826684 
